@@ -1,3 +1,2 @@
 manzanas
-bananas
-mandarinas
+

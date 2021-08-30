@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1modulo2</title>
+    <link rel="stylesheet" href="trabajo1modulo2.css">
+</head>
+<body>
+    <h2>Cada cuadrado tiene un color difernete al ser clickeados.</h2>
+
+    <p>
+      <button class="boton alternar">rosa</button>
+      <button class="boton alternar">violeta</button>
+      <button class="boton alternar">verde</button>
+    </p>
+  <script>
+      
+      var alternar = document.getElementsByClassName('alternar')[0];
+      var alternar = document.getElementsByClassName('alternar')[0];
+      var alternar = document.getElementsByClassName('alternar')[0];
+       
+      /**
+       * classList representa la lista de clases asignadas a un elemento
+       * toggle nos permite "prender" o "apagar" una clase en un objeto
+       * add agrega la clase o clases que le pasemos
+       * remove remueve la clase o clases que le pasemos
+       */
+      alternar.addEventListener('click', function(e) {
+          e.target.classList.toggle('activo');
+      });
+      alternar.addEventListener('click', function(e) {
+          e.target.classList.toggle('activo');
+      });
+      alternar.addEventListener('click', function(e) {
+          e.target.classList.toggle('activo');
+      });
+      </script>
+
+</body>
+</html>
